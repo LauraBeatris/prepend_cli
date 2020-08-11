@@ -12,7 +12,7 @@ defmodule PrependCli.MixProject do
   end
 
   def escript do
-    [main_module: PrependCLI]
+    [main_module: Prepend]
   end
 
   # Run "mix help compile.app" to learn about applications.
@@ -25,7 +25,8 @@ defmodule PrependCli.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:credo, "~> 1.4", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
+      {:mix_test_watch, "~> 1.0", only: :dev, runtime: false}
     ]
   end
 end
