@@ -4,6 +4,6 @@ defmodule Prepend do
   """
 
   def stream_lines(lines, prefix) do
-    Stream.map(lines, &"#{prefix} #{&1}")
+    Stream.map(lines, &(prefix <> &1))
   end
 end
