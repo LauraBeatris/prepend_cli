@@ -1,10 +1,14 @@
-test "handles multiple words" do
-  expected = ["I like ice cream", "I like pizza", "I like cats"]
+defmodule PrependTest do
+  use ExUnit.Case
 
-  received =
-    ["ice cream", "pizza", "cats"]
-    |> Prepend.stream_lines("I like ")
-    |> Enum.to_list()
+  test "handles multiple words" do
+    expected = ["I like ice cream", "I like pizza", "I like cats"]
 
-  assert received == expected
+    received =
+      ["ice cream", "pizza", "cats"]
+      |> Prepend.stream_lines("I like ")
+      |> Enum.to_list()
+
+    assert received == expected
+  end
 end
