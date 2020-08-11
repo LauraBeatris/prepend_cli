@@ -18,7 +18,7 @@ defmodule PrependCli.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger, :stream_data]
     ]
   end
 
@@ -27,7 +27,8 @@ defmodule PrependCli.MixProject do
     [
       {:credo, "~> 1.4", only: [:dev, :test], runtime: false},
       {:mix_test_watch, "~> 1.0", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.0", only: [:dev], runtime: false}
+      {:dialyxir, "~> 1.0", only: [:dev], runtime: false},
+      {:stream_data, "~> 0.4.2", only: [:dev, :test], runtime: false}
     ]
   end
 end
