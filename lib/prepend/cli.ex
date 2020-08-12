@@ -6,8 +6,6 @@ defmodule Prepend.CLI do
   """
 
   def main(lines \\ []) do
-    IO.puts :stdio
-
     output = IO.stream(:stdio, :line)
 
     output
