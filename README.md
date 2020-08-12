@@ -11,7 +11,7 @@
 [![Stars](https://img.shields.io/github/stars/LauraBeatris/prepend_cli?color=F5C84C&style=flat-square)](https://github.com/LauraBeatris/prepend_cli/stargazers)
 [![Forks](https://img.shields.io/github/forks/LauraBeatris/prepend_cli?color=%23F5C84C&style=flat-square)](https://github.com/LauraBeatris/prepend_cli/network/members)
 [![Contributors](https://img.shields.io/github/contributors/LauraBeatris/prepend_cli?color=F5C84C&style=flat-square)](https://github.com/LauraBeatris/prepend_cli/graphs/contributors)
-[![NPM](https://img.shields.io/npm/v/prepend_cli?color=F5C84C&style=flat-square)](https://www.npmjs.com/package/prepend_cli)
+[![CI Status](https://img.shields.io/github/workflow/status/LauraBeatris/prepend_cli/CI?label=CI&style=flat-square)](https://github.com/LauraBeatris/prepend_cli/actions)
 
 ---
 <p align="center">
