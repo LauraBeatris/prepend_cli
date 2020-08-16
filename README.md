@@ -41,7 +41,7 @@ Make sure you have [Elixir](https://elixir-lang.org/) installed. If you're on a 
 
 Run ``mix deps.get`` and ``mix escript.build`` or combine them as ``mix do deps.get, escript.build``
 
-- ``mix deps.get``: Download the dependencies defined inside ``mix.esx``
+- ``mix deps.get``: Download the dependencies defined inside ``mix.exs``
 - ``mix escript.build``: Build the executable that can be invoked from the command line
 
 # :pushpin: Usage
